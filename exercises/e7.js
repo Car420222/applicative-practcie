@@ -6,9 +6,13 @@ import { data } from "../data/data";
 
 export function getPlanetsNamesWithMoons(data) {
   // Your code goes here...
+  var planetsWithMoons = data.planets.filter(function (planet) {
+    return planet.moonsCount > 0;
+  });
+  return planetsWithMoons.map(function (planet) {
+    return planet.name;
+  });
 }
-
-
 
 // === TEST YOURSELF ===
 // Once you're finished run the test with "npm run test-7"

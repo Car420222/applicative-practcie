@@ -4,14 +4,14 @@
 - [X]Create a new repository in your Github account. Set it to be a public repo. Copy the new repo SSH path.
 - [X]Open the cloned repo project in your favorite IDE. Start a terminal session.
 - [X]Update/change the remote origin path with to the new SSH path **OR** add a new path (f.i "solved" or "destination"). [Github's git remote actions docs](https://docs.github.com/en/get-started/getting-started-with-git/managing-remote-repositories).
-- Push the main/master branch to the new repository.
-- Run `npm i` to install dependencies and packages.
+- [X]Push the main/master branch to the new repository.
+- [X]Run `npm i` to install dependencies and packages.
 - Start solving the exercises, following the "HOW IT WORKS" section.
 
 ## HOW IT WORKS
 
-- The repo has the "exercises" folder with 16 exercise files (e1.js .. e16.js). Each file includes the task description, a function declared, data imported, and a placeholder for your code.
-- Open e1.js file and start writing functions' code in the "Your code goes here..." placeholder to achieve the goals described.
+- [x]The repo has the "exercises" folder with 16 exercise files (e1.js .. e16.js). Each file includes the task description, a function declared, data imported, and a placeholder for your code.
+- [x]Open e1.js file and start writing functions' code in the "Your code goes here..." placeholder to achieve the goals described.
 - **!!! NO loops (for..i, for..of, for..in) are allowed unless specified.**
 - **!!! forEach() array method is not allowed.**
 - Once you are done, run the test command `npm run test-1` in the command line, where "1" is the current exercise number. This will start the test environment and show the passed and failed tests for the current code you have written.
